@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+    </style>
+</head>
+<body style="align-items: center;">
+    
+<h2 style="text-align: center;">Temperature Converter</h2>
+<p style="text-align: center;">Type a value in the Fahrenheit field to convert the value to Celsius:</p>
+
+<p style="text-align: center;">
+  <label>Fahrenheit</label>
+  <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+</p>
+<p style="text-align: center;">Celcius: <span id="outputCelcius"></span></p>
+<div style="text-align: center;"> 
+<button style="width: 100px; color: blue; text-align: center;" >convert</button>  
+</div>        
+<script>
+function temperatureConverter(valNum) {
+  valNum = parseFloat(valNum);
+  document.getElementById("outputCelcius").innerHTML=(valNum-32)/1.8;
+}
+</script>
+</body>
+</html>

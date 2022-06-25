@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TIME STOREs</title>
+
+  <!-- goohle fonts -->
+  <link rel="stylesheet" type="text/css" href="<link rel=" preconnect href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+
+  <!-- bootstrap css file  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+
+
+  <style>
+    
+    #title{
+      background-color: #66bfaa;
+    }
+    h1{
+      font-family: 'Roboto', sans-serif;
+      font-size: 3rem;
+      line-height: 1.5;
+    }
+    h3{
+      color: solid-black;
+      font-family: 'Montserrat', sans-serif;
+      
+    }
+    h2{
+      color: solid-black;
+      font-family: 'Montserrat-Bold', sans-serif;
+      font-size: 2.8rem;
+      line-height: 1.5;
+
+      
+    }
+    .container
+    { 
+      padding: 3% 15% ;
+    }
+    .navbar-brand
+    {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 2.5rem;
+      padding-bottom: 20px;
+    }
+    .navbar-nav
+    {
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+    }
+    .nav-link
+    {
+     color: #064635;
+    }
+    .nav-title
+    { font-family: 'Montserrat-Bold', sans-serif
+      padding : 0 0 10px 0;
+    }
+    .Download-btn
+    {
+      margin-top: 25px;
+      margin: 5% 3% 5% 0;
+
+    }
+    .images-mob
+    {
+      width: 60%;
+      transform: rotate(28deg);
+      
+    }
+    #features{
+      padding: 5% 13%;
+    }
+    
+    .fas{
+      color:#17D7A0 ;
+      padding-bottom: 1rem;
+    }
+    .fas:hover{
+      color: #89B5AF;
+    }
+    .features-box {
+      text-align: center;
+      padding: 5%;
+    }
+    #testimonials{
+      
+      text-align: center;
+      background-color:#66bfaa; 
+    }
+    .images-dog{
+      width: 15%;
+      border-radius: 100%;
+      margin: 20px;
+    }
+      #press{
+        background-color:#66bfaa; 
+        text-align: center;
+
+        padding-bottom: 50px;
+      }
+      .images-pic{
+        width: 15%;
+        margin: 15px 15px 20px; //top left & right bottom 
+      }
+      .carousel-item{
+        padding: 7% 15%;
+      }
+      #pricing{
+        padding: 100px;
+        text-align: center;
+      }
+      .pricing-col{
+        padding: 3% 2%;
+
+      }
+      .h3T{
+         background-color:#66bfaa;
+
+      }
+      .pricing-heading{
+        font-size: 3rem;
+        color: solid-black;
+      }
+      #cta{
+        background-color:#66bfaa;
+        color: solid-black;
+        text-align: center;
+        padding: 7% 15%;
+      }
+      .cta-heading{
+        font-size: 3.5rem;
+      }
+
+      #footer{
+        text-align: center;
+        padding: 7% 15%;
+      }
+      .fot{
+        
+        margin: 0 3px 0;
+      }
+
+
+
+      @media( max-width: 1028px) 
+      {
+          
+        .images-mob
+        {
+         transform:rotate(45);
+         position: relative;
+        }
+         #title
+         {
+           text-align: center;  <!-- @media is use to make a website more responsive on tab or mobile -->
+          }  
+      }
+
+
+
+  </style>
+</head>
+
+<body>
+
+  <section id="title">
+    
+  <div class="container">
+    <nav class="navbar bg navbar-expand-lg navbar-dark">
+    <a class="navbar-brand" href="">Watch Store</a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#cta">Download</a>
+        </li>
+    </ul>
+ </div>
+</nav>
+
+
+
+
+    <!-- Title -->
+    <div class="row">
+
+    <div class="col-lg-6"> <!-- use col lg 6 to divide large screen into 2 parts == 12/6  -->
+      <h1 class="nav-title">Brand building one step at a time.</h1>
+      <button  type="button" class="btn btn-dark btn-lg Download-btn" > <i class="fab fa-apple"></i> Download</button>
+      <button type="button" class="btn btn-outline-light btn-lg Download-btn" > <i class="fab fa-google-play"></i> Download</button>
+    </div>
+
+    <div class="col-lg-6">
+      <img class="images-mob" src="watch4-removebg-preview.png" alt="iphone-mockup">
+    </div>
+    </div>
+  </div>
+  
+  </section>
+     <!-- https://fontawesome.com/v5.15/how-to-use/customizing-wordpress/snippets/setup-cdn-webfont---for free cdn on awespme font .com -->
+
+  <!-- Features -->
+
+  <section id="features">
+
+  <div class="row">
+      
+    <div class="features-box col-lg-4"> <!-- use col lg 4 to divide large screen into 3 parts == 12/4  -->
+      <i class="fas fa-check-circle fa-4x"></i>
+      <h3>Easy to use.</h3>
+      <p>ECommerce website design for manufacturer of Swiss luxury watches</p>
+    </div>
+
+    <div class="features-box col-lg-4">
+      <i class="fas fa-bullseye fa-4x"></i><!-- fa 4x use to change the size of icon as per our requrimenet  -->
+      <h3>Strack watches</h3>
+      <p>LUXURY WATCH ECOMMERCE WEBSITE</p>
+    </div>
+
+    <div class="features-box col-lg-4"><!-- use col lg 4 to divide large screen into 3 parts == 12/4  -->
+      <i class="fas fa-heart fa-4x"></i>
+      <h3>Guaranteed to work.</h3>
+      <p>There are a lot of copycat products for luxury items on the internet.</p>
+    </div>
+
+  </div>
+
+
+
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section id="testimonials">
+
+  <!--  <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
+    <img class="images-dog" src="images/dog-img.jpg" alt="dog-profile">
+    <em>Pebbles, New York</em> -->
+
+    <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+    <img class="testimonial-image" src="images/lady-img.jpg" alt="lady-profile">
+    <em>Beverly, Illinois</em> -->
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h2>We've been building brands for large corporations.</h2>
+    <img class="images-dog" src="Watch2.jpg" alt="dog-profile">
+    </div>
+    <div class="carousel-item">
+     <h2 class="testimonial-text">People are now also making purchasing decisions based on what a brand says, does, and stands for not just price or quality anymore!
+
+    </h2>
+    <img class="images-dog"  src="Watch3.jpg" alt="lady-profile">
+    <em></em>
+    </div>
+   
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+  </section>
+
+
+  <!-- Press -->
+
+<!--   <section id="press">
+    <img class="images-pic" src="images/techcrunch.png" alt="tc-logo">
+    <img class="images-pic" src="images/tnw.png" alt="tnw-logo">
+    <img class="images-pic" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="images-pic" src="images/mashable.png" alt="mashable-logo">
+
+  </section> -->
+
+
+  <!-- Pricing -->
+
+  <section id="pricing">
+
+    <h2 class="pricing-heading">Our Best Selling Project</h2>
+    <p>How do you guarantee you re remarkable and the go-to option every time? </p>
+
+<div class="row">
+  <div class="pricing-col col-lg-4 col-md-6">
+        <div class="card">
+      <div class=" h3T card-header">
+          <h3>HAKUMATA</h3>
+      </div>  
+        <div class="card-body">
+          <h2>$100</h2>
+          <p>Analog</p>
+          <p>Black Wrist</p>
+          <p>Made with Pure leather</p>
+          <button class="btn btn-primary btn-lg" type="button">Buy Now</button>  
+        </div>
+    </div>
+  </div>
+
+    <div class="pricing-col col-lg-4 col-md-6">
+        <div class="card">
+          <div class=" h3T card-header">
+          <h3>KEYSIGHT</h3>
+          </div>  
+        <div class="card-body">
+          <h2>$200</h2>
+          <p>Analog</p>
+          <p>Premium look with multiple colour Option</p>
+          <p>Made with Pure leather</p>
+          <button class="btn btn-lg btn-block btn-outline-dark" type="button">Buy Now</button>  
+        </div>
+    </div>
+  </div>
+
+
+    
+    <div class="pricing-col col-lg-4">
+    <div class="card">
+        <div class=" h3T card-header">
+          <h3>MASTIFF</h3>
+        </div>  
+        <div class="card-body">
+          <h2>$500</h2>
+    <p>Digital</p>
+    <p>Activity Tracker</p>
+    <p>Call Notification</p>
+    <p>Find Your Phone</p>
+    <button class="btn btn-lg btn-block  btn-outline-dark" type="button">Buy Now</button>
+        </div>
+    </div>
+    </div>
+
+</div>
+
+
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section id="cta">
+
+    <h3 class="cta-heading">WATCH STONE ONLINE WATCHES FOR ALL</h3>
+    <button  type="button" class="btn btn-dark btn-lg Download-btn" > <i class="fab fa-apple"></i> Download</button>
+    <button type="button" class="btn btn-outline-light btn-lg Download-btn" > <i class="fab fa-google-play"></i> Download</button>
+
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer id="footer">
+
+    <i class="fot fas fa-envelope fa-2x"></i>
+    <i class="fot fab fa-twitter fa-2x"></i>
+    <i class="fot fab fa-facebook fa-2x"></i>
+    <i class="fot fab fa-instagram fa-2x"></i>
+    <p>© Copyright 2022 RUTUJA RATHOD</p>
+
+  </footer>
+
+
+</body>
+
+</html>
